@@ -26,5 +26,12 @@ namespace CurdOperationsInngJs.Controllers
 
             return View();
         }
+
+        public ActionResult List()
+        {
+            ViewBag.Message = "Your list.";
+
+            return View();
+        }
     }
 }
